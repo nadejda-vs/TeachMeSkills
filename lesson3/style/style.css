@@ -1,26 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
 body {
-    width: 1400px;
-    height: 1021px;
-    border: 1px solid #9b2a2a;
-
+width: 1400px;
+height: 1021px;
+margin: 0 auto;
 }
 .header{
-  
-       margin: 100px auto 50px;
-
+margin: 100px auto 50px;
 }
 .header-text-h2 {
-
-    text-align: center;
-    text-transform: uppercase;
-   font-family: Raleway;
-   font-style: normal;
-   font-weight:lighter;
-   font-size: 36px;
-   line-height: 42px;
-   color: #212121;
+text-align: center;
+text-transform: uppercase;
+font-family: Raleway;
+font-style: normal;
+font-weight:lighter;
+font-size: 36px;
+line-height: 42px;
+color: #212121;
 }
 .logo{
 border-bottom: 1px solid #E72424;
@@ -81,78 +77,117 @@ margin-right: 25px;
        background-image: url("../image/im1.png");
        background-repeat: no-repeat;
        background-position: center;
-    
 }
 .banner-container2-img {
-    width: 70px;
-    height: 70px;
-    margin-left: 140px;
-    border-radius: 50%;
-    border: 1px solid;
-    color: #E72424;
-    background-image: url("../image/im2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
+width: 70px;
+height: 70px;
+margin-left: 140px;
+border-radius: 50%;
+border: 1px solid;
+color: #E72424;
+background-image: url("../image/im2.png");
+background-repeat: no-repeat;
+background-position: center;
 }
 .banner-container3-img {
-    width: 70px;
-    height: 70px;
-    margin-left: 140px;
-    border-radius: 50%;
-    border: 1px solid;
-    color: #E72424;
-    background-image: url("../image/im3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
+width: 70px;
+height: 70px;
+margin-left: 140px;
+border-radius: 50%;
+border: 1px solid;
+color: #E72424;
+background-image: url("../image/im3.png");
+background-repeat: no-repeat;
+background-position: center;
 }
 .banner-container2 {
-    
-   
- width:350px;
- height: 225px;
- margin-right: 25px;
+width:350px;
+height: 225px;
+margin-right: 25px;
 }
 .banner-container3 {
-   margin-right: 143px;
-  
-  width:350px;
-  height: 225px;
-  margin-right: 25px;
-    
+margin-right: 143px;
+width:350px;
+height: 225px;
+margin-right: 25px;
 }
 .main {
-    height: 326px;
-    border: 4px rgb(89, 0, 255) solid;  /*убрать*/
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-     url(../image/footer.png);
-    background-color: rgb(8, 8, 8);
-    mix-blend-mode: darken;
-
+height: 326px;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+url(../image/footer.png);
+background-color: rgb(8, 8, 8);
+mix-blend-mode: darken;
 text-align: center;
-
 }
 .main-container-h2{
-    color: white;
-    margin-top: 76px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+color: white;
+padding-top: 76px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
 }
 .logo1 {
-    border-bottom: 1px solid white;
-    width: 64px;
-    margin: 25px auto 0;
-    
+border-bottom: 1px solid white;
+width: 64px;
+margin: 25px auto 0;
+margin-top: 48px; 
 }
 .main-content-p{
-    color: rgba(255, 255, 255, 0.8);
-opacity: 0.5;
+color: rgba(255, 255, 255, 0.8);
+opacity: 0.6;
+font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-top: 30px;
+}
+#button{
+margin-top: 30px;
+}
+.button{
+text-decoration: none;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+padding: 11px 26px 11px 26px;
+border: 1px solid #FFFFFF;
 }
 .footer{
-    border: 5px rgb(187, 255, 0) solid; /*убрать*/
+height: 101px;
+width: 1400px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+background-color: black;
+}
+.image-footer{
+margin-left: 541px;
+padding-top: 30px;
+width: 317px;
+height: 23px;
+display: flex;
+justify-content: space-between;
+}
+.footer-text{
+margin-top: 18px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
 }
