@@ -1,102 +1,158 @@
-body{
-   position: relative;
-   width: 1400px;
-   height: 1021px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+body {
+    width: 1400px;
+    height: 1021px;
+    border: 1px solid #9b2a2a;
 
-   background: #FFFFFF;
-display: flex;
-flex-wrap: wrap;
 }
-hr{
-    color: rgb(18, 71, 216);
+.header{
   
-}
-/*
-.logo{
-width: 64px;
-     border-bottom-width: 2px;
-     border-bottom-style: solid;
-     border-bottom-color: red;
-     border-bottom-width: 64;
-    margin: 25px;
-    padding: 25px 20px 45px 50px;
-}
-*/
-.header
-.container{
- 
-    position: absolute;
-    width: 409px;
-    height: 38px;
-    left: 496px;
-    top: 100px;
+       margin: 100px auto 50px;
 
+}
+.header-text-h2 {
+
+    text-align: center;
+    text-transform: uppercase;
+   font-family: Raleway;
+   font-style: normal;
+   font-weight:lighter;
+   font-size: 36px;
+   line-height: 42px;
+   color: #212121;
+}
+.logo{
+border-bottom: 1px solid #E72424;
+width: 64px;
+ margin: 25px auto 0;
+}
+.header-text-p{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+text-align: center;
+margin: 25px auto 50px;
+}   /*все ок*/
+.banner{
+    display: flex;
+   width: 100%;
+     text-align: center;
+   margin-bottom: 80px;
+}
+
+.banner-container1{
+   margin-left: 143px;
+    
+   display: inline-block;
+   top: 100px;
+margin-right: 25px;
+   width:350px;
+   height: 225px;
+}
+#text-h3{
+   margin-top: 21px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   text-align: center;
+}
+#text-p{
+    margin-top: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+.banner-container1-img{
+    width: 70px;
+    height: 70px;
+  margin-left: 140px;
+    border-radius: 50% ;
+  border: 1px solid;
+      color: #E72424;
+       background-image: url("../image/im1.png");
+       background-repeat: no-repeat;
+       background-position: center;
+    
+}
+.banner-container2-img {
+    width: 70px;
+    height: 70px;
+    margin-left: 140px;
+    border-radius: 50%;
+    border: 1px solid;
+    color: #E72424;
+    background-image: url("../image/im2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.banner-container3-img {
+    width: 70px;
+    height: 70px;
+    margin-left: 140px;
+    border-radius: 50%;
+    border: 1px solid;
+    color: #E72424;
+    background-image: url("../image/im3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.banner-container2 {
+    
+   
+ width:350px;
+ height: 225px;
+ margin-right: 25px;
+}
+.banner-container3 {
+   margin-right: 143px;
+  
+  width:350px;
+  height: 225px;
+  margin-right: 25px;
+    
+}
+.main {
+    height: 326px;
+    border: 4px rgb(89, 0, 255) solid;  /*убрать*/
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+     url(../image/footer.png);
+    background-color: rgb(8, 8, 8);
+    mix-blend-mode: darken;
+
+text-align: center;
+
+}
+.main-container-h2{
+    color: white;
+    margin-top: 76px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 42px;
-
-    color: #212121;
-   }
-h2{
-    text-transform:uppercase;
-      text-align: center;
-      margin: 163px;
-}
-
-.main{
-   background-image: url(../image/footer.png);
-   width: 1400px;
- height: 326px;
-}
-.main-content {
-
-    position: absolute;
-    width: 779px;
-    height: 20px;
-    left: 310px;
-    top: 195px;
-
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
     text-align: center;
-
-    color: red;
-
 }
-/*Переделать иконки!!!footer is OK*/
+.logo1 {
+    border-bottom: 1px solid white;
+    width: 64px;
+    margin: 25px auto 0;
+    
+}
+.main-content-p{
+    color: rgba(255, 255, 255, 0.8);
+opacity: 0.5;
+}
 .footer{
-   position: absolute;
-   width: 1400px;
-   height: 101px;
-   left: 0px;
-   top: 920px;
-   background: #000000;
-   text-align: center;
-}
-.image-footer{
-    position: absolute;
-    width: 317px;
-    height: 23px;
-    left: 541px;
-    top: 30px;
-}
-.footer-content{
-color: rgba(255, 255, 255, 0.5);
-position: absolute;
-width: 130px;
-height: 15px;
-left: 635px;
-top: 71px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-text-align: center;
-
+    border: 5px rgb(187, 255, 0) solid; /*убрать*/
 }
