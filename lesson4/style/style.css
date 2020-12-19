@@ -40,26 +40,28 @@ display: flex;
 .navigation-ul>li:not(:last-child) {
    padding: 25px 24px;
 }
-
-.header-background {
-background: rgb(0, 0, 0, 0.45);
-height: 601px;
-display: flex;
-}
+/* конец navigation */
 .header-background-image {
-width: 100%;
+width: 1400px;
 height: 601px;
 background-image: url(../image/background-1.png);
+   display: flex;
 }
-.header-colum-left{
-       padding: 109px 265px 101px 110px;
-       width: 544px;
-       text-align: left;
-       line-height: 42px;
-       display: inline;
+.header-background {
+   background: rgb(0, 0, 0, 0.45);
+   height: 601px;
+   width: 100%;
+   display: flex;
 }
+.header-colum-left {
+   padding: 109px 265px 101px 110px;
+   width: 544px;
+   text-align: left;
+   line-height: 42px;
+   }
 .header-colum-left>p{
-font-family: Roboto;
+ font-family: Roboto;
+ 
 font-style: normal;
 font-weight: normal;
 font-size: 60px;
@@ -75,59 +77,44 @@ color: #FFFFFF;
 text-transform: uppercase;
 }
 .header-line{
-margin: 50px;
-
-/* 
-  margin: 25px auto 0;  */
+ margin: 25px auto 0;
    width: 64px;
-   border: 1px solid #FFFFFF;
-
+   border-top: 1px solid #FFFFFF;
 }
-h6{
-font-family: Raleway;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-
-color: rgba(255, 255, 255, 0.8);
+.text-grey {
+     color: rgba(255, 255, 255, 0.8);
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    width: 282px;
+    height: 38px;
 }
-
-
-
-
-.header-colum-right{
- background: #FFFFFF;
- border-radius: 8px;
- width: 370px;
- height: 370px;
+.header-div-form {
+   width: 370px;
+   height: 370px;
 }
-.header-colum-right>p{
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 27px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #333333;
+.header-div-with-form {
+   width: 370px;
+   height: 316px;
+   border-radius: 8px 8px 0 0;
+   background-color: #fff;
+   margin: 111px 111px 0 0;
 }
-.header-colum-right-text-color{
-   color:#EC7979;
-   text-transform: uppercase;
-}
-.header-form {
-   font-family: Open Sans;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 19px;
+.header-form-p-free {
+   width: 100%;
+   height: 56px;
+   display: flex;
+   justify-content: center;
    align-items: center;
-   color: #BDBDBD;
-   text-decoration: none;
+   font-size: 20px;
+   font-family: "Open Sans";
+   font-weight: 700;
+   color: #333;
 }
-
+.span-free {
+   color: #ec7979;
+}
 .header-form-p-text {
    font-family: "Open Sans";
    font-weight: 400;
@@ -136,44 +123,87 @@ color: #333333;
    text-align: left;
    padding-left: 59px;
 }
-   }
-   .input-name {
-      font-size: 16px;
-      margin-bottom: 22px;
-   }
-
-   .input-email {
-      font-size: 19px;
-      margin-bottom: 22px;
-   }
-
-   .input-password {
-      font-size: 19px;
-      margin-bottom: 19px;
-   }
 .p-input-name {
    padding-top: 38px;
 }
-.header-form-get-started{
-width: 370px;
-height: 54px;
-left: 919px;
-top: 426px;
-display: flex;
-justify-content: center;
-align-items: center;
-background: #EC7979;
-border-radius: 0px 0px 8px 8px;
+.header-input {
+   border: none;
+   border-bottom: 1px solid #bdbdbd;
+   width: 252px;
+}
+.header-input:focus {
+   outline: none;
+}
+.input-name {
+   font-size: 16px;
+   margin-bottom: 22px;
+}
+.input-email {
+   font-size: 19px;
+   margin-bottom: 22px;
+}
+.input-password {
+   font-size: 19px;
+   margin-bottom: 19px;
+}
+.header-form-get-started {
+   width: 100%;
+   height: 54px;
+   background-color: #ec7979;
+   font-size: 16px;
+   font-family: "Open Sans";
+   font-weight: 600;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 0 0 8px 8px;
+}
+/* конец header */
+
+.section-media{
+   width: 1400px;
+   height: 110px;
+   left: 0px;
+   top: 670px;
+
+   background: #F8EFEF
+}
+.social-media-p {
 font-family: Open Sans;
 font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 20px;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
 display: flex;
 align-items: center;
-text-align: center;
-color: #FFFFFF
+  padding: 17px 0;
+
+color: #333333;}
+.section-media {
+   height: 110px;
+   width: 100%;
+   background-color: #f8efef;
+   display: flex;
 }
+.section-madia-text {
+     width: 365px;
+     padding-left: 111px;
+     text-align: left;
+    color: #86878B
+}
+.social-icons{
+  width: 684px;
+  height: 42px;
+  padding: 34px 111px 34px 129px;
+  display: flex;
+justify-content: space-between;
+}
+.social-icons>a{
+color: #cccccc;} 
+/* конец social */
+
+
 
 
 
