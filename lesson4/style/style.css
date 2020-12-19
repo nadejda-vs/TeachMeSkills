@@ -56,6 +56,7 @@ background-image: url(../image/background-1.png);
        width: 544px;
        text-align: left;
        line-height: 42px;
+       display: inline;
 }
 .header-colum-left>p{
 font-family: Roboto;
@@ -74,7 +75,10 @@ color: #FFFFFF;
 text-transform: uppercase;
 }
 .header-line{
- margin: 25px auto 0;
+margin: 50px;
+
+/* 
+  margin: 25px auto 0;  */
    width: 64px;
    border: 1px solid #FFFFFF;
 
@@ -86,7 +90,8 @@ font-weight: 300;
 font-size: 16px;
 line-height: 19px;
 
-color: rgba(255, 255, 255, 0.8);}
+color: rgba(255, 255, 255, 0.8);
+}
 
 
 
