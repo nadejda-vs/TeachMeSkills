@@ -451,7 +451,8 @@ margin-right: 25px;
       color: #86878B;
       padding-bottom: 62px;
 }
-/* start basic */
+/*===== start basic 
+============================*/
  .pricing-basic-block{
       display: flex;
       justify-content: space-between;
@@ -515,19 +516,120 @@ background: #FFFFFF;
 margin-top: 4px;
 text-align: center;
 padding-top: 10px;
-
 }
 
+/*====== end basic
+=============================*/
+/* start testimonials */
+.testimonials{
 
+height: 600px;
 
+}
+.testimonials-block{
+    display: flex; 
+    margin-inline:157px;
 
-/* end basic */
+}
+.testimonials-colum2{
+   margin-left: 112px;
+}
+.testimonials-text
+{
+   padding-top: 80px;
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #212121;
+   text-transform: uppercase;
+  
+}
+.testimonials-line {
+   border-bottom: 1px solid #E72424;
+   width: 64px;
+   margin: 25px auto 0;
+   margin-top: 48px;
+}
 
+.testimonials-p{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+padding-top: 34px;
+padding-bottom: 67px;}
+.testimonials-avatar-block {
+   display: flex;
+}
+
+.testimonials-colum-p{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+align-items: center;
+text-align: center;
+color: #86878B;
+background: #E2E2E2;
+width: 298px;
+height: 110px;
+display: flex; 
+border-radius: 7px;
+}
+.testimonials-avatar{
+    background-repeat: no-repeat;
+  
+    display: flex;
+}
+
+.testimonials-avatar
+{
+    margin-top: 30px;
+
+}
+.testimonials-colum-p-Jeremy {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+width: 97px;
+height: 27px;
+   align-items: center;
+   text-align: center;
+display: flex;
+   color: #333333;
+   margin-left: 50px;
+   margin-top: 30px;
+      
+
+}
+.testimonials-colum-p-Manager
+{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 19px;
+    display: flex;
+   align-items: right;
+     margin-top: 12px;
+   color: #86878B;
+      margin-left: 83px;
+}
+/* end testimonials */
 .main-container{
 width: 100%;
 height: 326px;
 background-image: url("../image/footer.png");
- margin-top: 108px;
+ margin-top: 80px;
 text-align: center;
 }
 .fon-image{
@@ -577,6 +679,135 @@ padding: 11px 26px 11px 26px;
 border: 1px solid #FFFFFF;
 }
 /* заканчивается main */
+
+/* ========= start contactUs
+=================================== */
+.contactU{
+height: 700px;}
+
+.contactUs-h2-top{
+font-family: Raleway;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #212121;
+margin-top: 80px;
+}
+.contactUs-line {
+   border-bottom: 1px solid #EC7979;
+   width: 64px;
+   margin: 25px auto 0;
+   padding-top: 34px;
+   
+}
+.contactUs-p-top{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+  padding-top: 34px;
+ padding-bottom: 91px;
+}
+.contactUs-with-form{
+   display: flex;
+}
+.contactUs-form-p-text {
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(189, 189, 189, 1);
+   text-align: left;
+   padding-left: 59px;
+}
+
+.contact-us-text-areas {
+   display: flex;
+}
+
+.contact-us-messages-block {
+   width: 489px;
+   padding: 0 222px 0 111px;
+   margin-bottom: 115px;
+}
+
+.contact-us-form-p-text {
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(189, 189, 189, 1);
+   text-align: left;
+}
+
+.contact-us-input {
+   border: none;
+   border-bottom: 1px solid #bdbdbd;
+   width: 478px;
+}
+
+.contact-us-input:focus {
+   outline: none;
+}
+
+.contact-us-input-name {
+   font-size: 32px;
+   margin-bottom: 31px;
+}
+
+.contact-us-input-email {
+   font-size: 32px;
+   margin-bottom: 32px;
+}
+
+.contact-us-input-password {
+   font-size: 32px;
+}
+
+.contact-us-textarea-and-message {
+   text-align: left;
+}
+
+.contact-us-message {
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(189, 189, 189, 1);
+}
+
+textarea {
+   resize: none;
+   width: 478px;
+   height: 204px;
+   border: none;
+   border-bottom: 1px solid #bdbdbd;
+}
+textarea:focus {
+   outline: none;
+ 
+}
+.contact-us-message-div{
+ padding-bottom: 44px;
+}
+.button-contact-us {
+   padding: 12px 30px;
+   border: 2px solid #ec7979;
+   color: rgba(189, 189, 189, 1);
+   font-family: "Open Sans";
+   font-weight: 600;
+   font-size: 15px;
+   transition: background-color 1s ease;
+   background-color: rgb(83, 30, 30);
+
+}
+
+.button-contact-us:hover {
+   color: #fff;
+   transition: background-color 1s ease;
+   background-color: #ec7979;
+}
+
 .footer{
 font-family: Open Sans;
 font-style: normal;
@@ -585,18 +816,18 @@ font-size: 12px;
 line-height: 16px;
 color: rgba(255, 255, 255, 0.5);
 margin-bottom: 0px;
+height: 101px;
+
 }
 .content-footer{
    background-color: black;
    width: 100%;
+      padding-top: 30px;
 }
 .image-footer>a{
    color: grey;
    margin-inline: 10px;
-
 }
-
-
 .footer-text{
 margin-top: 18px;
 font-family: Open Sans;
@@ -605,4 +836,4 @@ font-weight: normal;
 font-size: 12px;
 line-height: 16px;
 color: rgba(255, 255, 255, 0.5);
-}
+} 
