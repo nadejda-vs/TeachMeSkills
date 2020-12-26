@@ -265,3 +265,34 @@ padding-top: 8px;
    padding-left: 10px;
    padding-top: 10px;
 }
+/*=============== start services
+=============================================== */
+.services{
+   width: 940px;
+   height: 446px;
+   border: 2px solid red;
+   display: flex;
+}
+.capabilites-h2{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+/*   
+   display: flex;
+   align-items: flex-end; */
+   letter-spacing: 2.30625px;
+
+   color: #48555B;
+}
+.capabilites-line {
+
+   width: 50px;
+   border: 1px solid #00A4E5;
+   margin: 25px auto 50px;
+   background-color: #00A4E5;
+
+
+}
