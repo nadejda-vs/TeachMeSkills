@@ -107,7 +107,7 @@ text-transform: uppercase;
 display: flex;
 text-align: center;
    }
-a{
+.navigation-text>li>a {
 text-decoration: none;
 font-family: "Open Sans";
 font-weight: 600;
@@ -296,3 +296,18 @@ padding-top: 8px;
 
 
 }
+.capabilites-middle {
+   width: 405.4px;
+   height: 38px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 19px;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.2px;
+
+color: #48555B;}
+
+
