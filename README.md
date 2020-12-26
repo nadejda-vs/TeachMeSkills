@@ -1,2 +1,2 @@
 # TeachMeSkills
-https://github.com/nadejda-vs/TeachMeSkills
+https://nadejda-vs.github.io/TeachMeSkills/
