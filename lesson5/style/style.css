@@ -130,7 +130,7 @@ a:hover {
 .about{
    width: 941px;
    height: 520px;
-   border: 2px blue solid;
+   
    text-align: center;
  
 }
@@ -142,7 +142,7 @@ a:hover {
    font-size: 18px;
    line-height: 25px;
    align-items: flex-end;
- 
+ margin-top: 57px;
    letter-spacing: 2.30625px;
 text-transform: uppercase;
    color: #48555B;
@@ -171,13 +171,24 @@ text-transform: uppercase;
    font-weight: bold;
    font-size: 20px;
    line-height: 27px;
-   display: flex;
-   align-items: flex-end;
+
    letter-spacing: 0.1875px;
    color: #48555B;
    padding-bottom: 30px;
 }
-a:hover {
+.about-block-p-bottom>a {
+   text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+
+  letter-spacing: 0.1875px;
+  color: #48555B;
+  padding-bottom: 30px;
+}
+.about-block-p-bottom>a:hover {
    color: #00A4E5;
 }
 .about-block-p-top
@@ -264,13 +275,14 @@ padding-top: 8px;
 .about-block-right-img3>p {
    padding-left: 10px;
    padding-top: 10px;
+   line-height: 25px;
 }
 /*=============== start services
 =============================================== */
 .services{
    width: 940px;
    height: 446px;
-   border: 2px solid red;
+   
    display: flex;
 }
 .capabilites-h2{
@@ -290,8 +302,8 @@ padding-top: 8px;
 .capabilites-line {
 
    width: 50px;
-   border: 1px solid #00A4E5;
-   margin: 25px auto 50px;
+   border: 2px solid #00A4E5;
+ margin-top: 10px;
    background-color: #00A4E5;
 
 
@@ -307,7 +319,23 @@ line-height: 19px;
 /* display: flex; */
 align-items: center;
 letter-spacing: 0.2px;
+text-align: left;
+color: #48555B;
+margin-left: 155px;
+margin-right: 20px;
+}
 
-color: #48555B;}
 
-
+.capabilites-button {
+   font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+width: 150px;
+height: 40px;
+text-align: center;
+letter-spacing: 0.5px;
+background: #00A4E5;
+border: none;
+color: #FFFFFF;}

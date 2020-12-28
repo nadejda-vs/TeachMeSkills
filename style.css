@@ -1,0 +1,39 @@
+
+body {
+width: 1400px;
+margin: 0 auto;
+background-color: rgb(160, 160, 224);
+}
+h2{
+   text-align: center;
+   color: black;
+   font-family: "Redressed",cursive;
+   font-size: 70px;
+   margin: 35px auto;
+}
+.project{
+display: flex;
+text-align: center;
+justify-content: center;
+width: 50px;
+height: 70px;
+
+font-family: "Redressed",
+cursive;
+font-size: 40px;
+text-decoration: none;
+justify-content: space-between;
+margin-left: 25px;
+}
+.project3{
+margin-right: 50px;
+}
+a{
+  text-decoration: none;
+}
+.project2 {
+   margin-right: 50px;
+}
+.project4 {
+   margin-right: 50px;
+}
