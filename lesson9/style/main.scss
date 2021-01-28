@@ -1,0 +1,181 @@
+@import "./base/normalize";
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+
+
+// .header__text {
+//     // color: $secondary-color;
+//     @include text ($primary-font, $huge-text, 700, $secondary-color, 1.5, uppercase);
+// }
+
+// .main__text {
+//     @extend .header__text;
+// }
+
+// .footer_text {
+//     @extend .header__text;
+// }
+
+// .box {
+//     // @include flexCentre;
+//     @include flexPos(center, center, row, wrap);
+//     width: 500px;
+//     height: 500px;
+//     background-color: #eee;
+
+//     @include sm {
+//         width: 300px;
+//         height: 300px;
+//     }
+// }
+
+// .box__inner {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $primary-color;
+// }
+body {
+    background-color: grey;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: grey;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: grid;
+    width: 1200px;
+    height: 800px;
+    grid-template-columns: 0.8fr 9.2fr;
+}
+
+.wrapper_nav {
+    background-color: rgb(120, 120, 206);
+    border: 2px solid red;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-vk {
+    font-size: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(purple), to(pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav_aside__icons {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 30px;
+}
+
+.nav_aside__icons>a {
+    margin: 15px 0;
+}
+
+.nav_aside__icons>a:link,
+.nav_aside__icons>a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav_aside__icons>a:hover {
+    color: red;
+
+}
+
+.button_change_theme {
+  
+    width: 80%;
+}
+.wrapper_body {
+    background-color: $first-background-color;
+    border-radius: 0 15px 15px 0;
+    border: 2px solid black;
+
+}
+
+.wrapper_body__content {
+    display: grid;
+    grid-template-areas: "nav nav nav"
+        "friends visitors followers"
+        "reach reach reach"
+        "info info info";
+    grid-template-rows: 100px 200px 200px 200px;
+    gap: 1vw;
+    margin: 1vw;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.body_content__nav {
+    grid-area: nav;
+    background-color: $second-background-color;
+}
+
+.body_content__friends {
+    grid-area: friends;
+    background-color:$second-background-color;
+}
+
+.body_content__visitors {
+    grid-area: visitors;
+    background-color: $second-background-color;
+}
+
+.body_content__followers {
+    grid-area: followers;
+    background-color: $second-background-color;
+}
+
+.body_content__reach {
+    grid-area: reach;
+    background-color: $second-background-color;
+    display: grid;
+    grid-template-areas: "device audience ";
+}
+
+.body_content__reach-device {
+    grid-area: device;
+    background-color: $second-background-color;
+}
+
+.body_content__reach-audience {
+    grid-area: audience;
+    background-color:$second-background-color;
+}
+
+.body_content__info {
+    grid-area: info;
+    background-color: $second-background-color;
+    display: grid;
+    grid-template-areas: "age geo ";
+}
+
+.body_content__gender-age {
+    grid-area: age;
+    background-color: $second-background-color;
+}
+
+.body_content__geo {
+    grid-area: geo;
+    background-color: $second-background-color;
+}
+
+
+.nav_search__block{display: flex;}
+.nav_search__magnifiier {
+    width: 15px;
+    height: 30px;
+    background-color: white;
+}
